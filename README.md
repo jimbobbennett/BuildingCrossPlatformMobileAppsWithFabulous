@@ -14,7 +14,7 @@ The slides for this talk are available [here](./Slides.pdf)
 
 ## Video
 
-**The video of this session from NDC is coming soon**
+*The video of this session from NDC is coming soon*
 
 ## Sample apps
 
@@ -26,7 +26,7 @@ This is the canonical 'Hello Fabulous' app showing the basics of the MVU pattern
 
 A good way to get started is to add a decrement button, and wire it up using a message. Try this whilst using the [Live Update](https://fsprojects.github.io/Fabulous/tools.html) feature to get a good feel of how rapid Fabulous devlopment is.
 
-**Advanced Hello World****
+**Advanced Hello World**
 
 This app is a online photo storage app that takes photos and uploads them to the cloud.
 
