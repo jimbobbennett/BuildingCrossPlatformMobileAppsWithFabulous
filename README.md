@@ -7,6 +7,7 @@ This repo contains all the resources and links you will need to get started buil
 * [Fabulous on GitHub](https://github.com/fsprojects/Fabulous)
 * [Fabulous documentation](https://fsprojects.github.io/Fabulous/)
 * [Awesome Fabulous](https://github.com/jimbobbennett/Awesome-Fabulous) - a collection of resources on Fabulous
+* [FSharp.org](https://fsharp.org) - The home of F#
 
 ## Slides
 
@@ -38,8 +39,21 @@ When you run the app you will be able to take a photo and it will upload to your
 
 This app checks to see if you have network connectivity using [Xamarin Essentials](https://docs.microsoft.com/xamarin/essentials/?WT.mc_id=fabulous-github-jabenn). If you have network connectivity, it uses the [Xamarin Media plugin](https://github.com/jamesmontemagno/MediaPlugin) to take a photo.
 
-This app only works on Android at the moment. It uses the [Android Azure storage SDK](https://github.com/Azure/azure-storage-android), bound in a [Xamarin Java Binding Library](https://docs.microsoft.com/xamarin/android/platform/binding-java-library/binding-an-aar/?WT.mc_id=fabulous-github-jabenn). An exercise to teh reader is to implement the [iOS version](https://github.com/Azure/azure-storage-ios) using [Objective Sharpie](https://docs.microsoft.com/xamarin/cross-platform/macios/binding/objective-sharpie/?WT.mc_id=fabulous-github-jabenn).
+This app only works on Android at the moment. It uses the [Android Azure storage SDK](https://github.com/Azure/azure-storage-android), bound in a [Xamarin Java Binding Library](https://docs.microsoft.com/xamarin/android/platform/binding-java-library/binding-an-aar/?WT.mc_id=fabulous-github-jabenn). An exercise to the reader is to implement the [iOS version](https://github.com/Azure/azure-storage-ios) using [Objective Sharpie](https://docs.microsoft.com/xamarin/cross-platform/macios/binding/objective-sharpie/?WT.mc_id=fabulous-github-jabenn).
 
 The storage is implemented in platform specific code using a bound native library, and the function to store the blob is passed in to the app constructor to show how you can compose your app using platform-specific functions.
 
 ## Get involved!
+
+Fabulous is open source and relies on the community to build it. If you want to get involved, check out the issues in [GitHub](https://github.com/fsprojects/Fabulous/issues), especially the ones with the [**Good first issue** label](https://github.com/fsprojects/Fabulous/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+
+If you've written any apps, blog posts, sample code or anything to do with Fabulous, please raise a PR to add it to the [Awesome Fabulous](https://github.com/jimbobbennett/Awesome-Fabulous) repo.
+
+We could also use an icon if you are a designer!
+
+You can also join the conversation on Twitter:
+
+* [Jim Bennett](https://twitter.com/jimbobbennett) - me!
+* [Don Syme](https://twitter.com/dsyme) - the initial creator of Fabulous
+* [Timothé Larivière](https://twitter.com/Tim_Lariviere) - one of the core contributors and maintainers
+* [#Fabulous](https://twitter.com/hashtag/Fabulous?src=hash) - the Fabulous Hashtag - though others keep using it for non-FSharp things!
