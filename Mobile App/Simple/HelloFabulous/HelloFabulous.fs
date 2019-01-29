@@ -11,8 +11,7 @@ module App =
         }
 
     type Msg = 
-        | Increment 
-        | Decrement 
+        | Increment
 
     let initModel = { Count = 0; }
 
@@ -21,7 +20,6 @@ module App =
     let update msg model =
         match msg with
         | Increment -> { model with Count = model.Count + 1 }, Cmd.none
-        | Decrement -> { model with Count = model.Count - 1 }, Cmd.none
         
     let view (model: Model) dispatch =
         View.ContentPage(
@@ -41,13 +39,6 @@ module App =
                         command = (fun () -> dispatch Increment), 
                         horizontalOptions = LayoutOptions.Fill,
                         backgroundColor = Color.DarkSlateBlue,
-                        textColor = Color.White
-                    )
-                    View.Button(
-                        text = "Decrement", 
-                        command = (fun () -> dispatch Decrement), 
-                        horizontalOptions = LayoutOptions.Fill,
-                        backgroundColor = Color.Red,
                         textColor = Color.White
                     )
                 ]
