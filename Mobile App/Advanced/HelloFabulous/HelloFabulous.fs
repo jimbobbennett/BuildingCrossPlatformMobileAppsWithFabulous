@@ -80,7 +80,8 @@ module App =
                         yield View.ActivityIndicator(
                             horizontalOptions = LayoutOptions.Center,
                             verticalOptions = LayoutOptions.Center,
-                            color = Color.White
+                            color = Color.White,
+                            isRunning = true
                         ).GridRowSpan(2)
                 ]
             )
