@@ -1,6 +1,6 @@
 # Building Cross-Platform Mobile Apps With Fabulous
 
-This repo contains all the resources and links you will need to get started building cross-platform mobile apps with Fabulous. This content was created for a talk given at [NDC London](https://ndc-london.com) in January 2019.
+This repo contains all the resources and links you will need to get started building cross-platform mobile apps with Fabulous. This content was created for a talk given at [NDC London](https://ndc-london.com) in January 2019 and [F# Exchange](https://skillsmatter.com/conferences/10869-f-sharp-exchange-2019) in APril 2019.
 
 ## Links
 
