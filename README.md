@@ -17,7 +17,7 @@ The slides for this talk are available [here](./Slides.pdf)
 
 The video from NDC London is here:
 
-https://youtu.be/DTzfe98pFvs
+https://youtu.be/Hm4EDPNXQqY
 
 ## Sample apps
 
