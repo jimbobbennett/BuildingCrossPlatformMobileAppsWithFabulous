@@ -15,9 +15,11 @@ The slides for this talk are available [here](./Slides.pdf)
 
 ## Video
 
-The video from NDC London is here:
+The video from [NDC London](https://ndc-london.com) is here:
+https://youtu.be/Hm4EDPNXQqY
 
-https://youtu.be/DTzfe98pFvs
+The video from [F# eXchange 2019](https://skillsmatter.com/conferences/10869-f-sharp-exchange-2019) is here:
+https://skillsmatter.com/skillscasts/13411-build-cross-platform-mobile-apps-using-fabulous
 
 ## Sample apps
 
