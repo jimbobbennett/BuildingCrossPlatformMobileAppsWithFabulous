@@ -37,15 +37,15 @@ A good way to get started is to add a decrement button, and wire it up using a m
 
 This app is a online photo storage app that takes photos and uploads them to the cloud.
 
-To try this app out you will need an [Azure](https://azure.microsoft.com/?WT.mc_id=fabulous-github-jabenn) account. You can sign up for a free account [here](https://azure.microsoft.com/Free/?WT.mc_id=fabulous-github-jabenn).
+To try this app out you will need an [Azure](https://azure.microsoft.com/?WT.mc_id=academic-0000-jabenn) account. You can sign up for a free account [here](https://azure.microsoft.com/Free/?WT.mc_id=academic-0000-jabenn).
 
-Once you have an account, create a [blob storage resource](https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?WT.mc_id=fabulous-github-jabenn), and add the connection string to the `Keys.fs` file.
+Once you have an account, create a [blob storage resource](https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?WT.mc_id=academic-0000-jabenn), and add the connection string to the `Keys.fs` file.
 
 When you run the app you will be able to take a photo and it will upload to your blob storage.
 
-This app checks to see if you have network connectivity using [Xamarin Essentials](https://docs.microsoft.com/xamarin/essentials/?WT.mc_id=fabulous-github-jabenn). If you have network connectivity, it uses the [Xamarin Media plugin](https://github.com/jamesmontemagno/MediaPlugin) to take a photo.
+This app checks to see if you have network connectivity using [Xamarin Essentials](https://docs.microsoft.com/xamarin/essentials/?WT.mc_id=academic-0000-jabenn). If you have network connectivity, it uses the [Xamarin Media plugin](https://github.com/jamesmontemagno/MediaPlugin) to take a photo.
 
-This app only works on Android at the moment. It uses the [Android Azure storage SDK](https://github.com/Azure/azure-storage-android), bound in a [Xamarin Java Binding Library](https://docs.microsoft.com/xamarin/android/platform/binding-java-library/binding-an-aar/?WT.mc_id=fabulous-github-jabenn). An exercise to the reader is to implement the [iOS version](https://github.com/Azure/azure-storage-ios) using [Objective Sharpie](https://docs.microsoft.com/xamarin/cross-platform/macios/binding/objective-sharpie/?WT.mc_id=fabulous-github-jabenn).
+This app only works on Android at the moment. It uses the [Android Azure storage SDK](https://github.com/Azure/azure-storage-android), bound in a [Xamarin Java Binding Library](https://docs.microsoft.com/xamarin/android/platform/binding-java-library/binding-an-aar/?WT.mc_id=academic-0000-jabenn). An exercise to the reader is to implement the [iOS version](https://github.com/Azure/azure-storage-ios) using [Objective Sharpie](https://docs.microsoft.com/xamarin/cross-platform/macios/binding/objective-sharpie/?WT.mc_id=academic-0000-jabenn).
 
 The storage is implemented in platform specific code using a bound native library, and the function to store the blob is passed in to the app constructor to show how you can compose your app using platform-specific functions.
 
